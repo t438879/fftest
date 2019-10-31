@@ -48,8 +48,14 @@
 		<module>backend-user</module>
 		<module>backend-sidecar-demo</module>
     </modules>
-	
-
+    
+      <dependencies>
+	<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+      </dependencies>
 
     <!--依赖管理，用于管理spring-cloud的依赖-->
     <!--依赖管理，用于管理spring-cloud的依赖-->
