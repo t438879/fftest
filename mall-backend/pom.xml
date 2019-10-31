@@ -53,6 +53,13 @@
     <dependencyManagement>
 
         <dependencies>
+		
+		
+	     <dependency>
+            	    <groupId>com.alibaba</groupId>
+            	    <artifactId>fastjson</artifactId>
+            	    <version>1.2.12</version>
+             </dependency>
 
             <!--公共依赖，用于服务间通信实体，公用方法-->
             <dependency>
