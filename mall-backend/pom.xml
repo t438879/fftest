@@ -48,6 +48,14 @@
 		<module>backend-user</module>
 		<module>backend-sidecar-demo</module>
     </modules>
+	
+    <dependencies>
+	    <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org.json.version}</version>
+            </dependency>
+    </dependencies>
 
 
     <!--依赖管理，用于管理spring-cloud的依赖-->
