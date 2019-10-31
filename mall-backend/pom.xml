@@ -58,7 +58,7 @@
 	     <dependency>
             	    <groupId>com.alibaba</groupId>
             	    <artifactId>fastjson</artifactId>
-            	    <version>1.2.12</version>
+            	    <version>1.2.25</version>
              </dependency>
 
             <!--公共依赖，用于服务间通信实体，公用方法-->
@@ -120,7 +120,12 @@
             </dependency>
 
 
-            
+            <!--com.alibaba-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.25</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
