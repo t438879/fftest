@@ -50,6 +50,13 @@
 
     <!--依赖管理，用于管理spring-cloud的依赖-->
     <!--依赖管理，用于管理spring-cloud的依赖-->
+	
+     <dependency>
+           <groupId>com.alibaba</groupId>
+           <artifactId>fastjson</artifactId>
+           <version>1.2.12</version>
+     </dependency>
+	
     <dependencyManagement>
 
         <dependencies>
