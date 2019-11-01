@@ -14,6 +14,16 @@
 	<description>backend-parser project for Spring Boot</description>
 	<packaging>jar</packaging>
 	
+	<dependencyManagement>
+        	<dependencies>
+	     		<dependency>
+            	    		<groupId>com.alibaba</groupId>
+            	    		<artifactId>fastjson</artifactId>
+            	    		<version>${fastjson.version}</version>
+             		</dependency>
+		<dependencies>
+	<dependencyManagement>
+	
 	
 	<dependencies>
 		<dependency>
