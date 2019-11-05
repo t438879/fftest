@@ -12,7 +12,7 @@
     <artifactId>backend-elasticsearch-search</artifactId>
 
     <properties>
-        <elasticsearch.version>6.3.0</elasticsearch.version>
+        <elasticsearch.version>6.8.4</elasticsearch.version>
     </properties>
 
     <!-- 使用aliyun镜像 -->
